@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2p1l82bxh038"]
+
+[ext_resource type="Script" uid="uid://bleh64hqi5w2" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ig7tw")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 192.0
+offset_right = 821.0
+offset_bottom = 297.0
+theme_override_font_sizes/font_size = 76
+text = "THIS IS A LABEL"
